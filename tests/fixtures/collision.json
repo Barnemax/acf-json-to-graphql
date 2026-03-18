@@ -1,0 +1,104 @@
+{
+  "key": "group_collision_test",
+  "title": "Collision Test",
+  "graphql_field_name": "collisionTest",
+  "graphql_types": ["Page", "DefaultTemplate"],
+  "show_in_graphql": 1,
+  "fields": [
+    {
+      "key": "field_69bdbca0e5772",
+      "label": "Test",
+      "name": "test",
+      "type": "flexible_content",
+      "show_in_graphql": 1,
+      "graphql_field_name": "test",
+      "layouts": {
+        "layout_69bdbca4e83e2": {
+          "key": "layout_69bdbca4e83e2",
+          "name": "sub",
+          "label": "Sub",
+          "sub_fields": [
+            {
+              "key": "field_69bdbcb6e5773",
+              "label": "Repeat",
+              "name": "repeat",
+              "type": "repeater",
+              "show_in_graphql": 1,
+              "graphql_field_name": "repeat",
+              "sub_fields": [
+                {
+                  "key": "field_69bdbcc1e5774",
+                  "label": "Text",
+                  "name": "text",
+                  "type": "text",
+                  "show_in_graphql": 1,
+                  "graphql_field_name": "text"
+                },
+                {
+                  "key": "field_69bdbcc8e5775",
+                  "label": "Time picker",
+                  "name": "time_picker",
+                  "type": "time_picker",
+                  "show_in_graphql": 1,
+                  "graphql_field_name": "timePicker"
+                },
+                {
+                  "key": "field_69bdbcefe5776",
+                  "label": "Weird group",
+                  "name": "weird_group",
+                  "type": "group",
+                  "show_in_graphql": 1,
+                  "graphql_field_name": "weirdGroup",
+                  "sub_fields": [
+                    {
+                      "key": "field_69bdbcf7e5777",
+                      "label": "Group text",
+                      "name": "group_text",
+                      "type": "text",
+                      "show_in_graphql": 1,
+                      "graphql_field_name": "groupText"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "layout_69bdbd12e5778": {
+          "key": "layout_69bdbd12e5778",
+          "name": "george",
+          "label": "George",
+          "sub_fields": [
+            {
+              "key": "field_69bdbd16e577a",
+              "label": "Post object",
+              "name": "postobj",
+              "type": "post_object",
+              "post_type": "",
+              "show_in_graphql": 1,
+              "graphql_field_name": "test"
+            },
+            {
+              "key": "field_69bdbd2be577b",
+              "label": "Icon",
+              "name": "icon_picker",
+              "type": "icon_picker",
+              "graphql_field_name": "iconPicker"
+            },
+            {
+              "key": "field_69bdbd5ce577c",
+              "label": "Range",
+              "name": "range",
+              "type": "range",
+              "show_in_graphql": 1,
+              "graphql_field_name": "range"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "location": [[{ "param": "page_template", "operator": "==", "value": "default" }]],
+  "show_in_graphql": 1,
+  "modified": 1774042478
+}

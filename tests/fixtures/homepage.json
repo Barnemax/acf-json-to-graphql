@@ -1,0 +1,639 @@
+{
+    "key": "group_6929fc753239b",
+    "title": "Homepage",
+    "fields": [
+        {
+            "key": "field_69823f948845b",
+            "label": "Summary",
+            "name": "summary",
+            "aria-label": "",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_69823fe336db2": {
+                    "key": "layout_69823fe336db2",
+                    "name": "column",
+                    "label": "Column",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_698240d58845d",
+                            "label": "Title",
+                            "name": "title",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "show_in_graphql": 1,
+                            "graphql_description": "",
+                            "graphql_field_name": "columnTitle",
+                            "graphql_non_null": 0
+                        },
+                        {
+                            "key": "field_698240f28845e",
+                            "label": "Summary item",
+                            "name": "summary_item",
+                            "aria-label": "",
+                            "type": "flexible_content",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layouts": {
+                                "layout_6982411516bd0": {
+                                    "key": "layout_6982411516bd0",
+                                    "name": "summary_item",
+                                    "label": "Summary item",
+                                    "display": "block",
+                                    "sub_fields": [
+                                        {
+                                            "key": "field_6982412e8845f",
+                                            "label": "Label",
+                                            "name": "label",
+                                            "aria-label": "",
+                                            "type": "text",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "default_value": "",
+                                            "maxlength": "",
+                                            "allow_in_bindings": 0,
+                                            "placeholder": "",
+                                            "prepend": "",
+                                            "append": "",
+                                            "show_in_graphql": 1,
+                                            "graphql_description": "",
+                                            "graphql_field_name": "label",
+                                            "graphql_non_null": 0
+                                        },
+                                        {
+                                            "key": "field_6982414888460",
+                                            "label": "Value",
+                                            "name": "value",
+                                            "aria-label": "",
+                                            "type": "text",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "default_value": "",
+                                            "maxlength": "",
+                                            "allow_in_bindings": 0,
+                                            "placeholder": "",
+                                            "prepend": "",
+                                            "append": "",
+                                            "show_in_graphql": 1,
+                                            "graphql_description": "",
+                                            "graphql_field_name": "value",
+                                            "graphql_non_null": 0
+                                        }
+                                    ],
+                                    "min": "",
+                                    "max": ""
+                                }
+                            },
+                            "min": "",
+                            "max": "",
+                            "button_label": "Add Row",
+                            "show_in_graphql": 1,
+                            "graphql_description": "",
+                            "graphql_field_name": "summaryItem",
+                            "graphql_non_null": 0
+                        },
+                        {
+                            "key": "field_6982415788461",
+                            "label": "Links",
+                            "name": "links",
+                            "aria-label": "",
+                            "type": "flexible_content",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layouts": {
+                                "layout_6982415b6e0e2": {
+                                    "key": "layout_6982415b6e0e2",
+                                    "name": "link_layout",
+                                    "label": "Link",
+                                    "display": "block",
+                                    "sub_fields": [
+                                        {
+                                            "key": "field_6982416b88462",
+                                            "label": "Link",
+                                            "name": "link",
+                                            "aria-label": "",
+                                            "type": "link",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "return_format": "array",
+                                            "allow_in_bindings": 0,
+                                            "show_in_graphql": 1,
+                                            "graphql_description": "",
+                                            "graphql_field_name": "link",
+                                            "graphql_non_null": 0
+                                        }
+                                    ],
+                                    "min": "",
+                                    "max": ""
+                                }
+                            },
+                            "min": "",
+                            "max": "",
+                            "button_label": "Add Row",
+                            "show_in_graphql": 1,
+                            "graphql_description": "",
+                            "graphql_field_name": "links",
+                            "graphql_non_null": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "min": "",
+            "max": "",
+            "button_label": "Add Row",
+            "show_in_graphql": 1,
+            "graphql_description": "",
+            "graphql_field_name": "summary",
+            "graphql_non_null": 0
+        },
+        {
+            "key": "field_69af1cd1e9408",
+            "label": "Home projects",
+            "name": "home_projects",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "show_in_graphql": 1,
+            "graphql_description": "",
+            "graphql_field_name": "homeProjects",
+            "graphql_non_null": 0,
+            "sub_fields": [
+                {
+                    "key": "field_69af1ce5e9409",
+                    "label": "Title projects",
+                    "name": "title_projects",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "show_in_graphql": 1,
+                    "graphql_description": "",
+                    "graphql_field_name": "titleProjects",
+                    "graphql_non_null": 0
+                },
+                {
+                    "key": "field_69af1c7ecb63e",
+                    "label": "Highlighted projects",
+                    "name": "highlighted_projects",
+                    "aria-label": "",
+                    "type": "relationship",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "project"
+                    ],
+                    "post_status": "",
+                    "taxonomy": "",
+                    "filters": [
+                        "search"
+                    ],
+                    "return_format": "id",
+                    "min": "",
+                    "max": "",
+                    "allow_in_bindings": 0,
+                    "elements": "",
+                    "bidirectional": 0,
+                    "show_in_graphql": 1,
+                    "graphql_description": "",
+                    "graphql_field_name": "highlightedProjects",
+                    "graphql_connection_type": "one_to_many",
+                    "bidirectional_target": []
+                },
+                {
+                    "key": "field_69af1cefe940a",
+                    "label": "Link to archive",
+                    "name": "link_to_archive",
+                    "aria-label": "",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "allow_in_bindings": 0,
+                    "show_in_graphql": 1,
+                    "graphql_description": "",
+                    "graphql_field_name": "linkToArchive",
+                    "graphql_non_null": 0
+                }
+            ]
+        },
+        {
+            "key": "field_6967fb89cb642",
+            "label": "Introduction",
+            "name": "introduction",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "show_in_graphql": 1,
+            "graphql_description": "",
+            "graphql_field_name": "introduction",
+            "graphql_non_null": 0,
+            "sub_fields": [
+                {
+                    "key": "field_6929fc75133fb",
+                    "label": "Contenu",
+                    "name": "content",
+                    "aria-label": "",
+                    "type": "wysiwyg",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "allow_in_bindings": 0,
+                    "tabs": "all",
+                    "toolbar": "full",
+                    "media_upload": 1,
+                    "delay": 0,
+                    "show_in_graphql": 1,
+                    "graphql_description": "",
+                    "graphql_field_name": "contentIntroduction",
+                    "graphql_non_null": 0
+                },
+                {
+                    "key": "field_6967fbfacb643",
+                    "label": "Liens",
+                    "name": "links",
+                    "aria-label": "",
+                    "type": "flexible_content",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layouts": {
+                        "layout_6967fc215b87b": {
+                            "key": "layout_6967fc215b87b",
+                            "name": "link_layout",
+                            "label": "Lien",
+                            "display": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_6967fc3ccb644",
+                                    "label": "Lien",
+                                    "name": "link",
+                                    "aria-label": "",
+                                    "type": "link",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array",
+                                    "allow_in_bindings": 0,
+                                    "show_in_graphql": 1,
+                                    "graphql_description": "",
+                                    "graphql_field_name": "linkLinksIntroduction",
+                                    "graphql_non_null": 0
+                                }
+                            ],
+                            "min": "",
+                            "max": ""
+                        }
+                    },
+                    "min": "",
+                    "max": "",
+                    "button_label": "Add Row",
+                    "show_in_graphql": 1,
+                    "graphql_description": "",
+                    "graphql_field_name": "linksIntroduction",
+                    "graphql_non_null": 0
+                }
+            ]
+        },
+        {
+            "key": "field_6967fc70cb645",
+            "label": "Experience",
+            "name": "experience",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "show_in_graphql": 1,
+            "graphql_description": "",
+            "graphql_field_name": "experience",
+            "graphql_non_null": 0,
+            "sub_fields": [
+                {
+                    "key": "field_6967fc70cb646",
+                    "label": "Contenu",
+                    "name": "content",
+                    "aria-label": "",
+                    "type": "wysiwyg",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "allow_in_bindings": 0,
+                    "tabs": "all",
+                    "toolbar": "full",
+                    "media_upload": 1,
+                    "delay": 0,
+                    "show_in_graphql": 1,
+                    "graphql_description": "",
+                    "graphql_field_name": "contentExperience",
+                    "graphql_non_null": 0
+                },
+                {
+                    "key": "field_6967fc70cb647",
+                    "label": "Liens",
+                    "name": "links",
+                    "aria-label": "",
+                    "type": "flexible_content",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layouts": {
+                        "layout_6967fc215b87b": {
+                            "key": "layout_6967fc215b87b",
+                            "name": "link_layout",
+                            "label": "Lien",
+                            "display": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_6967fc70cb648",
+                                    "label": "Lien",
+                                    "name": "link",
+                                    "aria-label": "",
+                                    "type": "link",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array",
+                                    "allow_in_bindings": 0,
+                                    "show_in_graphql": 1,
+                                    "graphql_description": "",
+                                    "graphql_field_name": "linkLinksExperience",
+                                    "graphql_non_null": 0
+                                }
+                            ],
+                            "min": "",
+                            "max": ""
+                        }
+                    },
+                    "min": "",
+                    "max": "",
+                    "button_label": "Add Row",
+                    "show_in_graphql": 1,
+                    "graphql_description": "",
+                    "graphql_field_name": "linksExperience",
+                    "graphql_non_null": 0
+                }
+            ]
+        },
+        {
+            "key": "field_6967fceecb649",
+            "label": "About",
+            "name": "about",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "show_in_graphql": 1,
+            "graphql_description": "",
+            "graphql_field_name": "about",
+            "graphql_non_null": 0,
+            "sub_fields": [
+                {
+                    "key": "field_6967fceecb64a",
+                    "label": "Contenu",
+                    "name": "content",
+                    "aria-label": "",
+                    "type": "wysiwyg",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "allow_in_bindings": 0,
+                    "tabs": "all",
+                    "toolbar": "full",
+                    "media_upload": 1,
+                    "delay": 0,
+                    "show_in_graphql": 1,
+                    "graphql_description": "",
+                    "graphql_field_name": "contentAbout",
+                    "graphql_non_null": 0
+                },
+                {
+                    "key": "field_6967fceecb64b",
+                    "label": "Liens",
+                    "name": "links",
+                    "aria-label": "",
+                    "type": "flexible_content",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layouts": {
+                        "layout_6967fc215b87b": {
+                            "key": "layout_6967fc215b87b",
+                            "name": "link_layout",
+                            "label": "Lien",
+                            "display": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_6967fceecb64c",
+                                    "label": "Lien",
+                                    "name": "link",
+                                    "aria-label": "",
+                                    "type": "link",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array",
+                                    "allow_in_bindings": 0,
+                                    "show_in_graphql": 1,
+                                    "graphql_description": "",
+                                    "graphql_field_name": "linkLinksAbout",
+                                    "graphql_non_null": 0
+                                }
+                            ],
+                            "min": "",
+                            "max": ""
+                        }
+                    },
+                    "min": "",
+                    "max": "",
+                    "button_label": "Add Row",
+                    "show_in_graphql": 1,
+                    "graphql_description": "",
+                    "graphql_field_name": "linksAbout",
+                    "graphql_non_null": 0
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-homepage.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "display_title": "",
+    "show_in_graphql": 1,
+    "graphql_field_name": "homepage",
+    "map_graphql_types_from_location_rules": 1,
+    "graphql_types": [
+        "Page",
+        "Template_Homepage"
+    ],
+    "modified": 1773085245
+}

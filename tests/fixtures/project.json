@@ -1,0 +1,418 @@
+{
+  "key": "group_project_fields",
+  "title": "Project Fields",
+  "graphql_field_name": "projectFields",
+  "graphql_types": ["Project"],
+  "show_in_graphql": 1,
+  "fields": [
+    {
+      "key": "field_project_year",
+      "label": "Year",
+      "name": "year",
+      "type": "number",
+      "show_in_graphql": 1,
+      "graphql_field_name": "year"
+    },
+    {
+      "key": "field_project_site_url",
+      "label": "Site URL",
+      "name": "site_url",
+      "type": "url",
+      "show_in_graphql": 1,
+      "graphql_field_name": "siteUrl"
+    },
+    {
+      "key": "field_project_featured_image",
+      "label": "Featured Image",
+      "name": "featured_image",
+      "type": "image",
+      "show_in_graphql": 1,
+      "graphql_field_name": "featuredImage"
+    },
+    {
+      "key": "field_project_related",
+      "label": "Related Projects",
+      "name": "related_projects",
+      "type": "relationship",
+      "post_type": ["project"],
+      "show_in_graphql": 1,
+      "graphql_field_name": "relatedProjects"
+    },
+    {
+      "key": "field_project_meta",
+      "label": "Meta",
+      "name": "meta",
+      "type": "group",
+      "show_in_graphql": 1,
+      "graphql_field_name": "meta",
+      "sub_fields": [
+        {
+          "key": "field_project_meta_client",
+          "label": "Client",
+          "name": "client",
+          "type": "text",
+          "show_in_graphql": 1,
+          "graphql_field_name": "client"
+        },
+        {
+          "key": "field_project_meta_designer",
+          "label": "Designer",
+          "name": "designer",
+          "type": "link",
+          "show_in_graphql": 1,
+          "graphql_field_name": "designer"
+        },
+        {
+          "key": "field_project_meta_credits",
+          "label": "Credits",
+          "name": "credits",
+          "type": "repeater",
+          "show_in_graphql": 1,
+          "graphql_field_name": "credits",
+          "sub_fields": [
+            {
+              "key": "field_project_meta_credits_name",
+              "label": "Name",
+              "name": "name",
+              "type": "text",
+              "show_in_graphql": 1,
+              "graphql_field_name": "name"
+            },
+            {
+              "key": "field_project_meta_credits_role",
+              "label": "Role",
+              "name": "role",
+              "type": "text",
+              "show_in_graphql": 1,
+              "graphql_field_name": "role"
+            },
+            {
+              "key": "field_project_meta_credits_link",
+              "label": "Link",
+              "name": "link",
+              "type": "link",
+              "show_in_graphql": 1,
+              "graphql_field_name": "link"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "field_project_awards",
+      "label": "Awards",
+      "name": "awards",
+      "type": "repeater",
+      "show_in_graphql": 1,
+      "graphql_field_name": "awards",
+      "sub_fields": [
+        {
+          "key": "field_project_awards_title",
+          "label": "Title",
+          "name": "title",
+          "type": "text",
+          "show_in_graphql": 1,
+          "graphql_field_name": "title"
+        },
+        {
+          "key": "field_project_awards_year",
+          "label": "Year",
+          "name": "year",
+          "type": "number",
+          "show_in_graphql": 1,
+          "graphql_field_name": "year"
+        },
+        {
+          "key": "field_project_awards_org",
+          "label": "Organisation",
+          "name": "organisation",
+          "type": "group",
+          "show_in_graphql": 1,
+          "graphql_field_name": "organisation",
+          "sub_fields": [
+            {
+              "key": "field_project_awards_org_name",
+              "label": "Name",
+              "name": "name",
+              "type": "text",
+              "show_in_graphql": 1,
+              "graphql_field_name": "name"
+            },
+            {
+              "key": "field_project_awards_org_logo",
+              "label": "Logo",
+              "name": "logo",
+              "type": "image",
+              "show_in_graphql": 1,
+              "graphql_field_name": "logo"
+            },
+            {
+              "key": "field_project_awards_org_website",
+              "label": "Website",
+              "name": "website",
+              "type": "link",
+              "show_in_graphql": 1,
+              "graphql_field_name": "website"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "field_project_sections",
+      "label": "Sections",
+      "name": "sections",
+      "type": "flexible_content",
+      "show_in_graphql": 1,
+      "graphql_field_name": "sections",
+      "layouts": {
+        "layout_project_sections_hero": {
+          "key": "layout_project_sections_hero",
+          "name": "hero",
+          "label": "Hero",
+          "sub_fields": [
+            {
+              "key": "field_project_sections_hero_title",
+              "label": "Title",
+              "name": "title",
+              "type": "text",
+              "show_in_graphql": 1,
+              "graphql_field_name": "title"
+            },
+            {
+              "key": "field_project_sections_hero_subtitle",
+              "label": "Subtitle",
+              "name": "subtitle",
+              "type": "textarea",
+              "show_in_graphql": 1,
+              "graphql_field_name": "subtitle"
+            },
+            {
+              "key": "field_project_sections_hero_bg",
+              "label": "Background Image",
+              "name": "background_image",
+              "type": "image",
+              "show_in_graphql": 1,
+              "graphql_field_name": "backgroundImage"
+            },
+            {
+              "key": "field_project_sections_hero_ctas",
+              "label": "CTAs",
+              "name": "ctas",
+              "type": "flexible_content",
+              "show_in_graphql": 1,
+              "graphql_field_name": "ctas",
+              "layouts": {
+                "layout_project_sections_hero_ctas_primary": {
+                  "key": "layout_project_sections_hero_ctas_primary",
+                  "name": "primary",
+                  "label": "Primary CTA",
+                  "sub_fields": [
+                    {
+                      "key": "field_project_sections_hero_ctas_primary_link",
+                      "label": "Link",
+                      "name": "link",
+                      "type": "link",
+                      "show_in_graphql": 1,
+                      "graphql_field_name": "link"
+                    },
+                    {
+                      "key": "field_project_sections_hero_ctas_primary_style",
+                      "label": "Style",
+                      "name": "style",
+                      "type": "select",
+                      "show_in_graphql": 1,
+                      "graphql_field_name": "style"
+                    }
+                  ]
+                },
+                "layout_project_sections_hero_ctas_secondary": {
+                  "key": "layout_project_sections_hero_ctas_secondary",
+                  "name": "secondary",
+                  "label": "Secondary CTA",
+                  "sub_fields": [
+                    {
+                      "key": "field_project_sections_hero_ctas_secondary_link",
+                      "label": "Link",
+                      "name": "link",
+                      "type": "link",
+                      "show_in_graphql": 1,
+                      "graphql_field_name": "link"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "layout_project_sections_gallery": {
+          "key": "layout_project_sections_gallery",
+          "name": "gallery",
+          "label": "Gallery",
+          "sub_fields": [
+            {
+              "key": "field_project_sections_gallery_title",
+              "label": "Title",
+              "name": "title",
+              "type": "text",
+              "show_in_graphql": 1,
+              "graphql_field_name": "title"
+            },
+            {
+              "key": "field_project_sections_gallery_images",
+              "label": "Images",
+              "name": "images",
+              "type": "gallery",
+              "show_in_graphql": 1,
+              "graphql_field_name": "images"
+            },
+            {
+              "key": "field_project_sections_gallery_caption",
+              "label": "Caption",
+              "name": "caption",
+              "type": "wysiwyg",
+              "show_in_graphql": 1,
+              "graphql_field_name": "caption"
+            }
+          ]
+        },
+        "layout_project_sections_content": {
+          "key": "layout_project_sections_content",
+          "name": "content_block",
+          "label": "Content Block",
+          "sub_fields": [
+            {
+              "key": "field_project_sections_content_heading",
+              "label": "Heading",
+              "name": "heading",
+              "type": "text",
+              "show_in_graphql": 1,
+              "graphql_field_name": "heading"
+            },
+            {
+              "key": "field_project_sections_content_body",
+              "label": "Body",
+              "name": "body",
+              "type": "wysiwyg",
+              "show_in_graphql": 1,
+              "graphql_field_name": "body"
+            },
+            {
+              "key": "field_project_sections_content_aside",
+              "label": "Aside",
+              "name": "aside",
+              "type": "group",
+              "show_in_graphql": 1,
+              "graphql_field_name": "aside",
+              "sub_fields": [
+                {
+                  "key": "field_project_sections_content_aside_quote",
+                  "label": "Quote",
+                  "name": "quote",
+                  "type": "textarea",
+                  "show_in_graphql": 1,
+                  "graphql_field_name": "quote"
+                },
+                {
+                  "key": "field_project_sections_content_aside_attribution",
+                  "label": "Attribution",
+                  "name": "attribution",
+                  "type": "text",
+                  "show_in_graphql": 1,
+                  "graphql_field_name": "attribution"
+                }
+              ]
+            },
+            {
+              "key": "field_project_sections_content_links",
+              "label": "Links",
+              "name": "links",
+              "type": "repeater",
+              "show_in_graphql": 1,
+              "graphql_field_name": "links",
+              "sub_fields": [
+                {
+                  "key": "field_project_sections_content_links_link",
+                  "label": "Link",
+                  "name": "link",
+                  "type": "link",
+                  "show_in_graphql": 1,
+                  "graphql_field_name": "link"
+                },
+                {
+                  "key": "field_project_sections_content_links_label",
+                  "label": "Label",
+                  "name": "label",
+                  "type": "text",
+                  "show_in_graphql": 1,
+                  "graphql_field_name": "label"
+                }
+              ]
+            },
+            {
+              "key": "field_project_sections_content_related",
+              "label": "Featured Project",
+              "name": "featured_project",
+              "type": "post_object",
+              "post_type": ["project"],
+              "show_in_graphql": 1,
+              "graphql_field_name": "featuredProject"
+            }
+          ]
+        },
+        "layout_project_sections_metrics": {
+          "key": "layout_project_sections_metrics",
+          "name": "metrics",
+          "label": "Metrics",
+          "sub_fields": [
+            {
+              "key": "field_project_sections_metrics_title",
+              "label": "Title",
+              "name": "title",
+              "type": "text",
+              "show_in_graphql": 1,
+              "graphql_field_name": "title"
+            },
+            {
+              "key": "field_project_sections_metrics_items",
+              "label": "Items",
+              "name": "items",
+              "type": "repeater",
+              "show_in_graphql": 1,
+              "graphql_field_name": "items",
+              "sub_fields": [
+                {
+                  "key": "field_project_sections_metrics_items_label",
+                  "label": "Label",
+                  "name": "label",
+                  "type": "text",
+                  "show_in_graphql": 1,
+                  "graphql_field_name": "label"
+                },
+                {
+                  "key": "field_project_sections_metrics_items_value",
+                  "label": "Value",
+                  "name": "value",
+                  "type": "text",
+                  "show_in_graphql": 1,
+                  "graphql_field_name": "value"
+                },
+                {
+                  "key": "field_project_sections_metrics_items_icon",
+                  "label": "Icon",
+                  "name": "icon",
+                  "type": "image",
+                  "show_in_graphql": 1,
+                  "graphql_field_name": "icon"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "location": [[{ "param": "post_type", "operator": "==", "value": "project" }]],
+  "show_in_graphql": 1,
+  "modified": 1773085049
+}

@@ -1,0 +1,63 @@
+{
+  "name": "acf-json-to-graphql",
+  "version": "0.1.1",
+  "description": "CLI tool that converts ACF JSON sync files into WPGraphQL query fragments",
+  "keywords": [
+    "acf",
+    "wpgraphql",
+    "graphql",
+    "wordpress",
+    "advanced-custom-fields"
+  ],
+  "homepage": "https://github.com/Barnemax/acf-json-to-graphql",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Barnemax/acf-json-to-graphql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Barnemax/acf-json-to-graphql/issues"
+  },
+  "type": "module",
+  "bin": {
+    "acf-json-to-graphql": "./bin/acf-json-to-graphql.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "build": "tsup src/index.ts src/cli.ts --format esm --dts",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "prepublishOnly": "npm run build && npm run lint && npm test",
+    "test": "vitest run",
+    "typecheck:tests": "tsc -p tsconfig.test.json --noEmit"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@typescript-eslint/eslint-plugin": "^8.57.1",
+    "@typescript-eslint/parser": "^8.57.1",
+    "eslint": "^10.1.0",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.3.2",
+    "commander": "^14.0.3"
+  }
+}
